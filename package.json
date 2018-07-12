@@ -1,0 +1,29 @@
+{
+  "name": "blog-app-node",
+  "version": "1.0.0",
+  "description": "blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgaddy2017/Blog-App-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgaddy2017/Blog-App-Node/issues"
+  },
+  "homepage": "https://github.com/jgaddy2017/Blog-App-Node#readme",
+  "dependencies": {
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
